@@ -12,7 +12,11 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/fourkitchens/fourk"
         }
     ],
     "require": {
@@ -21,7 +25,8 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "fourkitchens/fourk": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
