@@ -22,7 +22,8 @@
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
         "modulesunraveled/fourk": "dev-master",
-        "drupal/components": "^1.0"
+        "drupal/components": "^1.0",
+        "modulesunraveled/fourk-gulp": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
