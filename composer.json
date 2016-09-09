@@ -22,7 +22,7 @@
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
-        "fourkitchens/fourk": "^1.0"
+        "fourkitchens/fourk": "dev-master"
     },
     "require-dev": {
         "behat/mink": "~1.7",
