@@ -1,12 +1,20 @@
-const gulp = require('gulp-help')(require('gulp'));
-const _ = require('lodash');
-let config = require('./gulp-config');
-let localConfig = {};
+/* globals require */
 
-try {
-  localConfig = require('./local.gulp-config');
-}
-catch (e) {}
+(function () {
 
-config = _.defaultsDeep(localConfig, config);
-require('fourk-gulp')(gulp, config);
+  'use strict';
+
+  // General
+  var gulp = require('gulp-help')(require('gulp'));
+  var _ = require('lodash');
+  var config = require('./gulp-config');
+  var localConfig = {};
+
+  try {
+    localConfig = require('./local.gulp-config');
+  }
+  catch (e) {}
+  config = _.defaultsDeep(localConfig, config);
+  require('fourk-gulp')(gulp, config);
+
+})();
