@@ -23,7 +23,6 @@
         "drush/drush": "~8.0",
         "modulesunraveled/fourk": "dev-master",
         "drupal/components": "^1.0",
-        "modulesunraveled/fourk-gulp": "dev-master",
         "modules-unraveled/drush-shell-aliases": "^1.0"
     },
     "require-dev": {
